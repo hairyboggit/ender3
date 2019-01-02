@@ -609,7 +609,7 @@ G0 X67.344 Y52.473
 M204 S5000
 M205 X30 Y30
 G1 F6000 E204.06811
-;MESH:Daring Esboo-Wolt(2).stl
+;MESH:Daring Esboo-Wolt.stl
 G0 F7200 X68.174 Y53.174
 G0 X166.77 Y181.77
 G0 X167.28 Y182.28
@@ -2809,7 +2809,7 @@ G0 F7200 X165.96 Y180.96
 ;LAYER:1
 M140 S70
 M106 S255
-;MESH:Daring Esboo-Wolt(2).stl
+;MESH:Daring Esboo-Wolt.stl
 G0 X165.96 Y180.96 Z0.4
 M204 S500
 M205 X20 Y20
@@ -5011,7 +5011,7 @@ M205 X30 Y30
 G0 F7200 X165.96 Y180.96
 ;TIME_ELAPSED:3689.344960
 ;LAYER:2
-;MESH:Daring Esboo-Wolt(2).stl
+;MESH:Daring Esboo-Wolt.stl
 G0 X165.96 Y180.96 Z0.6
 M204 S500
 M205 X20 Y20
@@ -7207,7 +7207,7 @@ M205 X30 Y30
 G0 F7200 X165.96 Y180.96
 ;TIME_ELAPSED:4676.574854
 ;LAYER:3
-;MESH:Daring Esboo-Wolt(2).stl
+;MESH:Daring Esboo-Wolt.stl
 G0 X165.96 Y180.96 Z0.8
 M204 S500
 M205 X20 Y20
@@ -9409,7 +9409,7 @@ M205 X30 Y30
 G0 F7200 X165.96 Y180.96
 ;TIME_ELAPSED:5663.287527
 ;LAYER:4
-;MESH:Daring Esboo-Wolt(2).stl
+;MESH:Daring Esboo-Wolt.stl
 G0 X165.96 Y180.96 Z1
 M204 S500
 M205 X20 Y20
@@ -14819,9 +14819,9 @@ M82 ;absolute extrusion mode
 M104 S0
 ;End of Gcode
 ;SETTING_3 {"extruder_quality": ["[general]\\nversion = 4\\nname = Ryan_Kraft_-_
-;SETTING_3 PLA_-_Ender_3_1\\ndefinition = fdmprinter\\n\\n[metadata]\\ntype = qu
-;SETTING_3 ality_changes\\nsetting_version = 5\\nquality_type = draft\\nposition
-;SETTING_3  = 0\\n\\n[values]\\nbottom_layers = 5\\nbrim_width = 5\\ncoasting_en
+;SETTING_3 PLA_-_Ender_3_1\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_v
+;SETTING_3 ersion = 5\\ntype = quality_changes\\nposition = 0\\nquality_type = d
+;SETTING_3 raft\\n\\n[values]\\nbottom_layers = 5\\nbrim_width = 5\\ncoasting_en
 ;SETTING_3 able = True\\ncool_fan_speed = 100\\ndefault_material_print_temperatu
 ;SETTING_3 re = 215\\ninfill_pattern = grid\\ninfill_sparse_density = 20\\niniti
 ;SETTING_3 al_layer_line_width_factor = 100\\nironing_enabled = True\\nline_widt
@@ -14832,8 +14832,8 @@ M104 S0
 ;SETTING_3 t_z_distance = 0.16\\ntop_bottom_pattern = lines\\ntop_bottom_pattern
 ;SETTING_3 _0 = lines\\ntop_layers = 6\\nwall_line_count = 4\\n\\n"], "global_qu
 ;SETTING_3 ality": "[general]\\nversion = 4\\nname = Ryan_Kraft_-_PLA_-_Ender_3_
-;SETTING_3 1\\ndefinition = fdmprinter\\n\\n[metadata]\\ntype = quality_changes\
-;SETTING_3 \nsetting_version = 5\\nquality_type = draft\\n\\n[values]\\nadhesion
+;SETTING_3 1\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_version = 5\\nt
+;SETTING_3 ype = quality_changes\\nquality_type = draft\\n\\n[values]\\nadhesion
 ;SETTING_3 _type = brim\\ndefault_material_bed_temperature = 70\\nlayer_height =
 ;SETTING_3  0.2\\nlayer_height_0 = 0.2\\nsupport_enable = False\\nsupport_tree_e
 ;SETTING_3 nable = True\\n\\n"}
