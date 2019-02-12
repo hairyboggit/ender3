@@ -6,9 +6,9 @@
 M140 S70
 M105
 M190 S70
-M104 S210
+M104 S215
 M105
-M109 S210
+M109 S215
 M82 ;absolute extrusion mode
 G28 ; home all axes
 M117 Purge extruder
@@ -3621,7 +3621,6 @@ M205 X30 Y30
 G0 F7200 X125.852 Y108.902
 G0 X125.467 Y109.2
 G0 X125.483 Y109.14
-M104 S205
 M204 S500
 M205 X20 Y20
 ;TYPE:WALL-INNER
@@ -3671,7 +3670,7 @@ G0 X105.658 Y110.443
 G0 X104.566 Y111.124
 ;TIME_ELAPSED:226.253498
 ;LAYER:1
-M140 S65
+M140 S70
 M106 S255
 G0 X104.566 Y111.124 Z0.4
 M204 S500
@@ -83465,24 +83464,24 @@ M84 ; disable motors
 M82 ;absolute extrusion mode
 M104 S0
 ;End of Gcode
-;SETTING_3 {"extruder_quality": ["[general]\\nversion = 4\\nname = trial\\ndefin
-;SETTING_3 ition = fdmprinter\\n\\n[metadata]\\nsetting_version = 5\\nquality_ty
-;SETTING_3 pe = draft\\ntype = quality_changes\\nposition = 0\\n\\n[values]\\nbo
-;SETTING_3 ttom_layers = 10\\nbrim_width = 10\\ncoasting_enable = True\\ncool_fa
-;SETTING_3 n_speed = 100\\ndefault_material_print_temperature = 205\\ninfill_pat
-;SETTING_3 tern = grid\\ninfill_sparse_density = 30\\ninitial_layer_line_width_f
-;SETTING_3 actor = 100\\nironing_enabled = True\\nline_width = 0.44\\nmaterial_f
-;SETTING_3 low_layer_0 = =material_flow\\nmaterial_initial_print_temperature = 2
-;SETTING_3 05\\nmaterial_print_temperature = 205\\nmaterial_print_temperature_la
-;SETTING_3 yer_0 = 210\\noptimize_wall_printing_order = True\\nretraction_amount
-;SETTING_3  = 5\\nretraction_speed = 100\\nspeed_infill = 60\\nspeed_layer_0 = 1
-;SETTING_3 5\\nspeed_topbottom = 30\\nspeed_travel_layer_0 = 120\\nspeed_wall = 
-;SETTING_3 30\\nspeed_wall_x = 45\\nsupport_z_distance = 0.16\\ntop_bottom_patte
-;SETTING_3 rn = lines\\ntop_bottom_pattern_0 = lines\\ntop_layers = 10\\nwall_li
-;SETTING_3 ne_count = 12\\n\\n"], "global_quality": "[general]\\nversion = 4\\nn
-;SETTING_3 ame = trial\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_versi
-;SETTING_3 on = 5\\nquality_type = draft\\ntype = quality_changes\\n\\n[values]\
-;SETTING_3 \nadhesion_type = brim\\ndefault_material_bed_temperature = 65\\nlaye
-;SETTING_3 r_height = 0.2\\nlayer_height_0 = 0.2\\nmaterial_bed_temperature_laye
-;SETTING_3 r_0 = 70\\nsupport_enable = True\\nsupport_tree_enable = False\\nsupp
-;SETTING_3 ort_type = buildplate\\n\\n"}
+;SETTING_3 {"extruder_quality": ["[general]\\nversion = 4\\nname = Ryan_Kraft_-_
+;SETTING_3 PLA_-_Ender_3_1\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_v
+;SETTING_3 ersion = 5\\nquality_type = draft\\ntype = quality_changes\\nposition
+;SETTING_3  = 0\\n\\n[values]\\nbottom_layers = 10\\nbrim_width = 10\\ncoasting_
+;SETTING_3 enable = True\\ncool_fan_speed = 100\\ndefault_material_print_tempera
+;SETTING_3 ture = 215\\ninfill_pattern = grid\\ninfill_sparse_density = 30\\nini
+;SETTING_3 tial_layer_line_width_factor = 100\\nironing_enabled = True\\nline_wi
+;SETTING_3 dth = 0.44\\nmaterial_final_print_temperature = 210\\nmaterial_flow_l
+;SETTING_3 ayer_0 = =material_flow\\nmaterial_initial_print_temperature = 215\\n
+;SETTING_3 optimize_wall_printing_order = True\\nretraction_amount = 5\\nretract
+;SETTING_3 ion_speed = 100\\nskirt_brim_minimal_length = 0\\nspeed_infill = 60\\
+;SETTING_3 nspeed_layer_0 = 15\\nspeed_topbottom = 30\\nspeed_travel_layer_0 = 1
+;SETTING_3 20\\nspeed_wall = 30\\nspeed_wall_x = 45\\nsupport_z_distance = 0.16\
+;SETTING_3 \ntop_bottom_pattern = lines\\ntop_bottom_pattern_0 = lines\\ntop_lay
+;SETTING_3 ers = 10\\nwall_line_count = 12\\n\\n"], "global_quality": "[general]
+;SETTING_3 \\nversion = 4\\nname = Ryan_Kraft_-_PLA_-_Ender_3_1\\ndefinition = f
+;SETTING_3 dmprinter\\n\\n[metadata]\\nsetting_version = 5\\nquality_type = draf
+;SETTING_3 t\\ntype = quality_changes\\n\\n[values]\\nadhesion_type = brim\\ndef
+;SETTING_3 ault_material_bed_temperature = 70\\nlayer_height = 0.2\\nlayer_heigh
+;SETTING_3 t_0 = 0.2\\nsupport_enable = True\\nsupport_tree_enable = False\\nsup
+;SETTING_3 port_type = buildplate\\n\\n"}
