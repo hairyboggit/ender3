@@ -24,6 +24,8 @@ G92 E0
 G1 F6000 E-5
 ;LAYER_COUNT:0
 M140 S0
+M204 S4000
+M205 X20 Y20
 M107
 G91; set coordinates to relative
 G1 F1800 E-3; retract
@@ -38,29 +40,28 @@ M82 ;absolute extrusion mode
 M104 S0
 ;End of Gcode
 ;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Ryan_Kraft_-_PLA
-;SETTING_3 _-_slower-slight\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_
-;SETTING_3 version = 5\\nquality_type = draft\\ntype = quality_changes\\n\\n[val
-;SETTING_3 ues]\\nacceleration_enabled = False\\nadhesion_type = brim\\ndefault_
-;SETTING_3 material_bed_temperature = 70\\njerk_enabled = False\\nlayer_height =
-;SETTING_3  0.2\\nlayer_height_0 = 0.2\\nsupport_enable = False\\nsupport_tree_e
-;SETTING_3 nable = True\\nsupport_type = buildplate\\n\\n", "extruder_quality": 
-;SETTING_3 ["[general]\\nversion = 4\\nname = Ryan_Kraft_-_PLA_-_slower-slight\\
-;SETTING_3 ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_version = 5\\nqual
-;SETTING_3 ity_type = draft\\nposition = 0\\ntype = quality_changes\\n\\n[values
-;SETTING_3 ]\\nbottom_layers = =999999 if infill_sparse_density == 100 else math
-;SETTING_3 .ceil(round(bottom_thickness / resolveOrValue('layer_height'), 4))\\n
-;SETTING_3 brim_width = 20\\ncoasting_enable = True\\ncool_fan_speed = 100\\ndef
-;SETTING_3 ault_material_print_temperature = 215\\ninfill_pattern = ='lines' if 
-;SETTING_3 infill_sparse_density > 25 else 'grid'\\ninfill_sparse_density = 30\\
-;SETTING_3 ninitial_layer_line_width_factor = 100\\nironing_enabled = True\\nlin
-;SETTING_3 e_width = =machine_nozzle_size\\nmaterial_flow_layer_0 = =material_fl
-;SETTING_3 ow\\noptimize_wall_printing_order = True\\nretraction_amount = 5\\nre
-;SETTING_3 traction_speed = 100\\nskirt_brim_minimal_length = 200\\nspeed_infill
-;SETTING_3  = 40\\nspeed_layer_0 = 15\\nspeed_print = 40\\nspeed_topbottom = 30\
-;SETTING_3 \nspeed_travel = 40\\nspeed_travel_layer_0 = 40\\nspeed_wall = 30\\ns
-;SETTING_3 peed_wall_x = 35\\nsupport_z_distance = 0.16\\ntop_bottom_pattern = l
-;SETTING_3 ines\\ntop_bottom_pattern_0 = =top_bottom_pattern\\ntop_layers = =0 i
-;SETTING_3 f infill_sparse_density == 100 else math.ceil(round(top_thickness / r
-;SETTING_3 esolveOrValue('layer_height'), 4))\\nwall_line_count = =1 if magic_sp
-;SETTING_3 iralize else max(1, round((wall_thickness - wall_line_width_0) / wall
-;SETTING_3 _line_width_x) + 1) if wall_thickness != 0 else 0\\n\\n"]}
+;SETTING_3 _-_Ender_3_1\\ndefinition = fdmprinter\\n\\n[metadata]\\nquality_type
+;SETTING_3  = draft\\ntype = quality_changes\\nsetting_version = 5\\n\\n[values]
+;SETTING_3 \\nadhesion_type = brim\\ndefault_material_bed_temperature = 70\\nlay
+;SETTING_3 er_height = 0.2\\nlayer_height_0 = 0.2\\nsupport_enable = False\\nsup
+;SETTING_3 port_tree_enable = True\\nsupport_type = buildplate\\n\\n", "extruder
+;SETTING_3 _quality": ["[general]\\nversion = 4\\nname = Ryan_Kraft_-_PLA_-_Ende
+;SETTING_3 r_3_1\\ndefinition = fdmprinter\\n\\n[metadata]\\nsetting_version = 5
+;SETTING_3 \\nquality_type = draft\\ntype = quality_changes\\nposition = 0\\n\\n
+;SETTING_3 [values]\\nbottom_layers = =999999 if infill_sparse_density == 100 el
+;SETTING_3 se math.ceil(round(bottom_thickness / resolveOrValue('layer_height'),
+;SETTING_3  4))\\nbrim_width = 10\\ncoasting_enable = True\\ncool_fan_speed = 10
+;SETTING_3 0\\ndefault_material_print_temperature = 215\\ninfill_pattern = ='lin
+;SETTING_3 es' if infill_sparse_density > 25 else 'grid'\\ninfill_sparse_density
+;SETTING_3  = 30\\ninitial_layer_line_width_factor = 100\\nironing_enabled = Tru
+;SETTING_3 e\\nline_width = =machine_nozzle_size\\nmaterial_flow_layer_0 = =mate
+;SETTING_3 rial_flow\\noptimize_wall_printing_order = True\\nretraction_amount =
+;SETTING_3  5\\nretraction_speed = 100\\nskirt_brim_minimal_length = 0\\nspeed_i
+;SETTING_3 nfill = 60\\nspeed_layer_0 = 15\\nspeed_topbottom = 30\\nspeed_travel
+;SETTING_3 _layer_0 = 120\\nspeed_wall = 30\\nspeed_wall_x = 45\\nsupport_z_dist
+;SETTING_3 ance = 0.16\\ntop_bottom_pattern = lines\\ntop_bottom_pattern_0 = =to
+;SETTING_3 p_bottom_pattern\\ntop_layers = =0 if infill_sparse_density == 100 el
+;SETTING_3 se math.ceil(round(top_thickness / resolveOrValue('layer_height'), 4)
+;SETTING_3 )\\nwall_line_count = =1 if magic_spiralize else max(1, round((wall_t
+;SETTING_3 hickness - wall_line_width_0) / wall_line_width_x) + 1) if wall_thick
+;SETTING_3 ness != 0 else 0\\n\\n"]}
